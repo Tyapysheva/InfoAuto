@@ -5,7 +5,7 @@ namespace InfoAuto.ConsoleCommand
 {
     public class ConsoleManager
     {
-        List<Auto> listAuto = new List<Auto>();
+        private List<Auto> listAuto = new List<Auto>();
         private int quantity;
         private double price;
         private bool success;
